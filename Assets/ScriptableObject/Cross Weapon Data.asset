@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a50e11943714e9fafc8e3fdfe8c103b, type: 3}
+  m_Name: Cross Weapon Data
+  m_EditorClassIdentifier: 
+  projectiles:
+  - {fileID: 2949863707152498170, guid: 1e1f3da18039d684a87dc1a47ad2f69f, type: 3}
+  - {fileID: 2949863707152498170, guid: 3a6b9b7ee7adb6041a326a1e9761b964, type: 3}
+  - {fileID: 2949863707152498170, guid: ae2aced2c4d56eb4a9b0188586312a2e, type: 3}
+  overdriveProjectile: {fileID: 2949863707152498170, guid: 521b770994d96da4f83f7f0dcd3f19b9, type: 3}
+  defaultWeaponPower: 1
+  weaponPatterns:
+  - {fileID: 11400000, guid: 85127ac8030afc445865e488d5c5d015, type: 2}
+  - {fileID: 11400000, guid: ded2fc6c617f69345aece39902ee99fa, type: 2}
+  normalFireInterval: 0.12
+  overdriveFireFactor: 1.2
+  fireSFX:
+    audioClip: {fileID: 8300000, guid: 53622e00a83edfb49a70bcbb9a4eebec, type: 3}
+    volume: 1

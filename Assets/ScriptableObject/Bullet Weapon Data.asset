@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a50e11943714e9fafc8e3fdfe8c103b, type: 3}
+  m_Name: Bullet Weapon Data
+  m_EditorClassIdentifier: 
+  projectiles:
+  - {fileID: 2949863707152498170, guid: 1e1f3da18039d684a87dc1a47ad2f69f, type: 3}
+  - {fileID: 2949863707152498170, guid: 338ebe7a6b6b9cf47898c171bbbb7f25, type: 3}
+  - {fileID: 2949863707152498170, guid: b999012320dc9224a9a66fe44fb8acba, type: 3}
+  - {fileID: 2996576273359034035, guid: 4d17ab070d12ec340b6824e701eb4437, type: 3}
+  - {fileID: 2996576273359034035, guid: 5d67589d28bbece4d8db96cd7b7c9bdc, type: 3}
+  - {fileID: 2996576273359034035, guid: ccc816a64b0b8c741a626396c70c311b, type: 3}
+  - {fileID: 2996576273359034035, guid: d71cf0947c9973349b3e9e9ba5611396, type: 3}
+  overdriveProjectile: {fileID: 2949863707152498170, guid: 521b770994d96da4f83f7f0dcd3f19b9, type: 3}
+  defaultWeaponPower: 1
+  weaponPatterns:
+  - {fileID: 11400000, guid: 19f0cadcc8e6b2d4d8c0f0e0fe57410c, type: 2}
+  - {fileID: 11400000, guid: ec6cba2d3dbdb3641a56b6088e9ac4ba, type: 2}
+  - {fileID: 11400000, guid: 8fd22088c041fcf4c9d38022f6692042, type: 2}
+  - {fileID: 11400000, guid: 25eeb7bac7739ba48a52fcef9699851e, type: 2}
+  - {fileID: 11400000, guid: 072d0ee8daa8f2b43872fcdc4800e0e1, type: 2}
+  normalFireInterval: 0.12
+  overdriveFireFactor: 1.2
+  fireSFX:
+    audioClip: {fileID: 8300000, guid: 53622e00a83edfb49a70bcbb9a4eebec, type: 3}
+    volume: 1
